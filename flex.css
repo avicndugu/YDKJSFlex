@@ -27,7 +27,7 @@ p {
 	font-size: 20px;
 }
 footer{
-	text-align: center;
+	/*text-align: center;*/
 	padding:20px;
 	background-color: #ebeae6;
 }
@@ -61,11 +61,11 @@ nav a:hover {
 	display:flex;
 	flex-wrap: wrap;
 	text-align: center;
-	justify-content:space-evenly;
+	/*justify-content:space-evenly;*/
 		/*min-height: 00px;*/
 }
 #main-img {
-	max-width:70%;
+	max-width:300px;
 	border:1px solid #333;
 	border-radius:10px;
 }
@@ -88,6 +88,19 @@ nav a:hover {
 	/*margin-left: 10px;*/
 }
 
-/*#author-img{
-	width:100%;
-}*/
+#author-img{
+	/*width:250%;*/
+}
+
+
+#author-row {
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: row;
+}
+.collumns2 {
+	flex:1;
+}
+.collumns1 {
+	flex:1;
+}
